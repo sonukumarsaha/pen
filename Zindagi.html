@@ -439,6 +439,21 @@
    </footer>
 
 
+   <!--= SCRIPT FOR COUNTING AND STORING NUMBER OF ARTICLES =-->
+   <script>
+      // Select all <article> elements
+      const articles = document.querySelectorAll('article');
+
+      // Count the number of <article> elements
+      const Zindagi = articles.length;
+
+      // Store the count in localStorage
+      localStorage.setItem('Zindagi', Zindagi);
+
+      // Display the count in the span with id "articleCount"
+      document.getElementById('Zindagi').textContent = Zindagi;
+   </script>
+
    <!--========== SCROLL UP ==========-->
    <a href="#" class="scrollup" id="scroll-up">
       <i class="ri-arrow-up-line"></i>
