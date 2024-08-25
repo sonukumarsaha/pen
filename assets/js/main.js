@@ -55,10 +55,12 @@ const sendEmail = (e) =>{
     .then(()=>{
         //Show sent message
         contactMessage.textContent = 'Message sent successfully ✅'
+        contactMessage.style.display='block';
 
         // Remove message after five seconds
         setTimeout(()=>{
             contactMessage.textContent=''
+            contactMessage.style.display='none';
         },5000)
 
         // Clear input fields
