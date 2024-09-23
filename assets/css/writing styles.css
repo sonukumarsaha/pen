@@ -576,7 +576,7 @@ hr.dotted-hr {
 }
 
 .contact__social {
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(1, max-content);
   justify-content: center;
   column-gap: 3rem;
 }
@@ -865,7 +865,7 @@ hr.dotted-hr {
   }
 
   .contact__social {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(1, max-content);
     column-gap: 3 rem;
   }
 
